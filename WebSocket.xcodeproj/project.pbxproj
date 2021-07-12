@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1512ADDA269B75D50082257C /* AQITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1512ADD8269B75D50082257C /* AQITableViewCell.swift */; };
+		1512ADDB269B75D50082257C /* AQITableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1512ADD9269B75D50082257C /* AQITableViewCell.xib */; };
+		1514EEC2269C92B200782B5D /* AQIHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514EEC0269C92B200782B5D /* AQIHistoryViewController.swift */; };
+		1514EEC3269C92B200782B5D /* AQIHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1514EEC1269C92B200782B5D /* AQIHistoryViewController.xib */; };
+		15B2ACEB269AF80300333F59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2ACEA269AF80300333F59 /* AppDelegate.swift */; };
+		15B2ACEF269AF80300333F59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2ACEE269AF80300333F59 /* ViewController.swift */; };
+		15B2ACF5269AF80300333F59 /* WebSocket.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15B2ACF3269AF80300333F59 /* WebSocket.xcdatamodeld */; };
+		15B2ACF7269AF80300333F59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B2ACF6269AF80300333F59 /* Assets.xcassets */; };
+		15B2ACFA269AF80300333F59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B2ACF8269AF80300333F59 /* LaunchScreen.storyboard */; };
+		15B2AD04269AF88300333F59 /* APIInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2AD03269AF88300333F59 /* APIInterface.swift */; };
+		15B2AD0A269B1CA600333F59 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2AD09269B1CA600333F59 /* WeatherModel.swift */; };
+		15B2AD0E269B412100333F59 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B2AD0D269B412100333F59 /* ViewController.xib */; };
+		15B2AD11269B432F00333F59 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B2AD10269B432F00333F59 /* WeatherViewModel.swift */; };
+		C0CE562A09AE2594E6CB2A1B /* Pods_WebSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C684EC4AE34894E61092DB /* Pods_WebSocket.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1512ADD8269B75D50082257C /* AQITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQITableViewCell.swift; sourceTree = "<group>"; };
+		1512ADD9269B75D50082257C /* AQITableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AQITableViewCell.xib; sourceTree = "<group>"; };
+		1514EEC0269C92B200782B5D /* AQIHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AQIHistoryViewController.swift; sourceTree = "<group>"; };
+		1514EEC1269C92B200782B5D /* AQIHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AQIHistoryViewController.xib; sourceTree = "<group>"; };
+		15B2ACE7269AF80300333F59 /* WebSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B2ACEA269AF80300333F59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15B2ACEE269AF80300333F59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15B2ACF4269AF80300333F59 /* WebSocket.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WebSocket.xcdatamodel; sourceTree = "<group>"; };
+		15B2ACF6269AF80300333F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15B2ACF9269AF80300333F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15B2ACFB269AF80300333F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B2AD03269AF88300333F59 /* APIInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIInterface.swift; sourceTree = "<group>"; };
+		15B2AD09269B1CA600333F59 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		15B2AD0D269B412100333F59 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		15B2AD10269B432F00333F59 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		50C684EC4AE34894E61092DB /* Pods_WebSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54DA2A1ADD170FCC5F98B8C2 /* Pods-WebSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebSocket.debug.xcconfig"; path = "Target Support Files/Pods-WebSocket/Pods-WebSocket.debug.xcconfig"; sourceTree = "<group>"; };
+		553C89FBA26565998018591B /* Pods-WebSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebSocket.release.xcconfig"; path = "Target Support Files/Pods-WebSocket/Pods-WebSocket.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15B2ACE4269AF80200333F59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0CE562A09AE2594E6CB2A1B /* Pods_WebSocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1514EEC6269CA30000782B5D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				15B2ACEE269AF80300333F59 /* ViewController.swift */,
+				15B2AD0D269B412100333F59 /* ViewController.xib */,
+				1514EEC0269C92B200782B5D /* AQIHistoryViewController.swift */,
+				1514EEC1269C92B200782B5D /* AQIHistoryViewController.xib */,
+				1512ADD8269B75D50082257C /* AQITableViewCell.swift */,
+				1512ADD9269B75D50082257C /* AQITableViewCell.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1514EEC8269CA30D00782B5D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				15B2AD10269B432F00333F59 /* WeatherViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1514EECA269CA31300782B5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15B2AD09269B1CA600333F59 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1514EECC269CA31C00782B5D /* NetowrkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				15B2AD03269AF88300333F59 /* APIInterface.swift */,
+			);
+			path = NetowrkLayer;
+			sourceTree = "<group>";
+		};
+		15B2ACDE269AF80200333F59 = {
+			isa = PBXGroup;
+			children = (
+				15B2ACE9269AF80300333F59 /* WebSocket */,
+				15B2ACE8269AF80300333F59 /* Products */,
+				E930E72D0DE7C0F135F9E24C /* Pods */,
+				21B52E734857F7F861A028BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15B2ACE8269AF80300333F59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15B2ACE7269AF80300333F59 /* WebSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15B2ACE9269AF80300333F59 /* WebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				15B2ACEA269AF80300333F59 /* AppDelegate.swift */,
+				1514EEC6269CA30000782B5D /* ViewController */,
+				1514EECC269CA31C00782B5D /* NetowrkLayer */,
+				1514EEC8269CA30D00782B5D /* ViewModel */,
+				1514EECA269CA31300782B5D /* Model */,
+				15B2ACF6269AF80300333F59 /* Assets.xcassets */,
+				15B2ACF8269AF80300333F59 /* LaunchScreen.storyboard */,
+				15B2ACFB269AF80300333F59 /* Info.plist */,
+				15B2ACF3269AF80300333F59 /* WebSocket.xcdatamodeld */,
+			);
+			path = WebSocket;
+			sourceTree = "<group>";
+		};
+		21B52E734857F7F861A028BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50C684EC4AE34894E61092DB /* Pods_WebSocket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E930E72D0DE7C0F135F9E24C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54DA2A1ADD170FCC5F98B8C2 /* Pods-WebSocket.debug.xcconfig */,
+				553C89FBA26565998018591B /* Pods-WebSocket.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15B2ACE6269AF80200333F59 /* WebSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B2ACFE269AF80300333F59 /* Build configuration list for PBXNativeTarget "WebSocket" */;
+			buildPhases = (
+				1D2C9D4EB78D1FB53D5D1B1F /* [CP] Check Pods Manifest.lock */,
+				15B2ACE3269AF80200333F59 /* Sources */,
+				15B2ACE4269AF80200333F59 /* Frameworks */,
+				15B2ACE5269AF80200333F59 /* Resources */,
+				9CFCE68F6D2C01FAC4116685 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebSocket;
+			productName = WebSocket;
+			productReference = 15B2ACE7269AF80300333F59 /* WebSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15B2ACDF269AF80200333F59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					15B2ACE6269AF80200333F59 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 15B2ACE2269AF80200333F59 /* Build configuration list for PBXProject "WebSocket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15B2ACDE269AF80200333F59;
+			productRefGroup = 15B2ACE8269AF80300333F59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15B2ACE6269AF80200333F59 /* WebSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15B2ACE5269AF80200333F59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B2ACFA269AF80300333F59 /* LaunchScreen.storyboard in Resources */,
+				15B2ACF7269AF80300333F59 /* Assets.xcassets in Resources */,
+				15B2AD0E269B412100333F59 /* ViewController.xib in Resources */,
+				1514EEC3269C92B200782B5D /* AQIHistoryViewController.xib in Resources */,
+				1512ADDB269B75D50082257C /* AQITableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D2C9D4EB78D1FB53D5D1B1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WebSocket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CFCE68F6D2C01FAC4116685 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebSocket/Pods-WebSocket-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WebSocket/Pods-WebSocket-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WebSocket/Pods-WebSocket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15B2ACE3269AF80200333F59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B2AD04269AF88300333F59 /* APIInterface.swift in Sources */,
+				15B2AD11269B432F00333F59 /* WeatherViewModel.swift in Sources */,
+				15B2ACEF269AF80300333F59 /* ViewController.swift in Sources */,
+				15B2ACF5269AF80300333F59 /* WebSocket.xcdatamodeld in Sources */,
+				1512ADDA269B75D50082257C /* AQITableViewCell.swift in Sources */,
+				1514EEC2269C92B200782B5D /* AQIHistoryViewController.swift in Sources */,
+				15B2ACEB269AF80300333F59 /* AppDelegate.swift in Sources */,
+				15B2AD0A269B1CA600333F59 /* WeatherModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15B2ACF8269AF80300333F59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B2ACF9269AF80300333F59 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15B2ACFC269AF80300333F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15B2ACFD269AF80300333F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15B2ACFF269AF80300333F59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DA2A1ADD170FCC5F98B8C2 /* Pods-WebSocket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Demo.WebSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15B2AD00269AF80300333F59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553C89FBA26565998018591B /* Pods-WebSocket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WebSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Demo.WebSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B2ACE2269AF80200333F59 /* Build configuration list for PBXProject "WebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B2ACFC269AF80300333F59 /* Debug */,
+				15B2ACFD269AF80300333F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B2ACFE269AF80300333F59 /* Build configuration list for PBXNativeTarget "WebSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B2ACFF269AF80300333F59 /* Debug */,
+				15B2AD00269AF80300333F59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15B2ACF3269AF80300333F59 /* WebSocket.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15B2ACF4269AF80300333F59 /* WebSocket.xcdatamodel */,
+			);
+			currentVersion = 15B2ACF4269AF80300333F59 /* WebSocket.xcdatamodel */;
+			path = WebSocket.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15B2ACDF269AF80200333F59 /* Project object */;
+}
